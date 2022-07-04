@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/beethoven-meet-mozart.jpg">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Pagina</title>
+</head>
+<body>
+    <header>
+        <h1> Os Melhores</h1>
+    </header>
+    <main>
+        <section class="container row">
+            <div class="item">
+                <div class="mozart"> <h4>Mozart</h4>
+                    <img src="/img/perfil-mozart.jpg" alt="Foto-Mozart">
+                <div>
+                    <button onclick="document.getElementById('player').play()">Play</button>
+                    <button onclick="document.getElementById('player').pause()">Pause</button>
+                    <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+                    <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+                  </div>   
+                  <audio id="player" autoplay="autoplay" controls="controls">
+                    <source src="/audio/Mozart - Requiem-mp3-7mega.mp3" type="audio/mp3"/>
+                  </audio>
+                  <a href="/audio/Mozart - Requiem-mp3-7mega.mp3" download="Mozart-Requiem-7mega.mp3">Dowloard</a>
+                </div>
+                         
+            </div>  
+            <div class="item">
+                <div class="mozartxbeethoven"><h4><span class="mb">MozartxBeethoven</span></h4>
+                    <iframe src="https://www.youtube.com/embed/ExBASbx6U0s" title="MOZART VS BEETHOVEN - Quem era melhor?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    <p> Quem era melhor? Mozart ou Beethoven? Aprenda neste video.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="beethoven"><h4>Beethoven</h4>
+                    <img src="/img/Beethoven.jpg" alt="Foto-Beethoven">
+                    <div id="buttons">
+                        <button onclick="document.getElementById('player').play()">Play</button>
+                        <button onclick="document.getElementById('player').pause()">Pause</button>
+                        <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+                        <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+                    </div>
+                      <audio id="player" autoplay="autoplay" controls="controls">
+                        <source src="/audio/Beethoven-Sonata ao Luar (Moonlight Sonata)48kbps-MP4A-(m4a)-1,85-MB.m4a" type="audio/mp3"/>
+                      </audio>
+                      <a href="/audio/Beethoven-Sonata ao Luar (Moonlight Sonata)48kbps-MP4A-(m4a)-1,85-MB.m4a" download="Beethoven-(Moonlight Sonata) 48kbps MP4A (m4a) 1,85 MB.m4a"><b>Dowloard</b></a> 
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer>
+            Todos os Direitos Reservados @Paulo Marrony Desenvolvedor Full Stack-Senac-Alagoas-UPS
+        </footer>
+</body>
+</html>

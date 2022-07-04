@@ -1,0 +1,84 @@
+.row {
+	flex-direction: row;
+}
+
+.container {
+	max-width: 100%;
+	margin: 10px 50px 10px 20px;
+	display: flex;	
+}
+
+.item {
+	flex: 1;
+	margin: 1px 18px 5px 1px;
+	text-align: center;
+	font-size: 1.5em;
+	
+}
+.mozart, .beethoven{
+	box-shadow: 1px 2px 5px 5px rgb(0,0,0);
+	border-radius: 5%;
+}
+
+.mozartxbeethoven{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+h1 {
+	padding-top: 15px;
+	text-align: center;
+	margin: 1px 18px 5px 1px;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+body {
+	text-align: center;
+	font-family: monospace;
+    color: rgb(255,255,255);
+    background-color: #0F2D36;
+}
+
+img{
+	width: 16vw;
+	height: 55vh;
+	border-style: groove;
+	border-radius: 50%;
+}
+
+iframe{
+	width: 50vw;
+	height: 55vh;
+	border-radius: 50px; 
+	border: 3px solid rgb(0,0,0);
+    box-shadow: 1px 1px 1px 5px rgb(0,0,0);
+
+}
+
+
+footer{
+	
+	padding-bottom: 1%;
+	margin: 1px 18px 5px 1px;
+}
+p{
+	border: 3px solid rgb(0,0,0);
+    box-shadow: 5px 5px 5px rgb(0,0,0);
+	background-color: #0F2D36;
+}
+h4{
+	text-align: center;
+	padding-top: 15px;
+
+}
+button{
+	margin: 1px 1px 2px 1px;
+}
+
+.mb{
+	border: 1px solid rgb(255,255,255);
+    box-shadow: 5px 5px 5px 5px rgb(0,0,0);
+	border: double;
+
+}
